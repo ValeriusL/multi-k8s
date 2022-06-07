@@ -2,7 +2,7 @@ FROM node:16-alpine as builder
 
 USER node
 
-RUN mkdir /home/node/app
+RUN mkdir -p /home/node/app
 
 WORKDIR /home/node/app
 
